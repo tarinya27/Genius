@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,20 +7,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        h6{
-            color:blue;
+        h6 {
+            color: blue;
         }
-        h2{
-            color:brown;
+
+        h2 {
+            color: brown;
         }
-        .available.instock span{
+
+        .available.instock span {
             color: white;
             background-color: red;
             padding: 5px 12px;
-            border-radius:50px;
-            font-weight:bold; 
+            border-radius: 50px;
+            font-weight: bold;
         }
-        .button{
+
+        .button {
             display: inline-block;
             background: green;
             padding: 6px 16px;
@@ -31,833 +35,1070 @@
             font-weight: normal;
             border-radius: 50px;
         }
-        .button:hover{
-            background:black;
+
+        .button:hover {
+            background: black;
         }
     </style>
 </head>
+
 <body>
     <div class="container-fluid mt-3">
-        <h1><center>HDD/SDD/Optical Drives</center></h1>
-        <h2><i>Hard Disk Drives (HDD)</i></h2>
-        <h4>Desktop Hard Disk (3.5")</h4><center>
-        <div class="row">
-          <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB  (no Warranty).png" width="190" height="150">
-            <h6>Seagate 1TB  (no Warranty)</h6>
-            <p class="available instock">Availability: <span>Yes</span></p>
-            <label>Qty:</label>
-            <input type="text" name="txt" value="1" size="4"><br><br>
-            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-          </div>
-          <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba 1TB PC Hard Disk.jpg" width="230" height="150">
-            <h6>Toshiba 1TB PC Hard Disk</h6>
-            <p class="available instock">Availability: <span>Yes</span></p>
-            <label>Qty:</label>
-            <input type="text" name="txt" value="1" size="4"><br><br>
-            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-          </div>
-          <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Blue 1TB  (Removed).jpg" width="190" height="150">
-            <h6>WD Blue 1TB  (Removed)</h6>
-            <p class="available instock">Availability: <span>Yes</span></p>
-            <label>Qty:</label>
-            <input type="text" name="txt" value="1" size="4"><br><br>
-            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-          </div>
-          <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 4TB Barracuda.jpg" width="190" height="150">
-            <h6>Seagate 4TB Barracuda</h6>
-            <p class="available instock">Availability: <span>Yes</span></p>
-            <label>Qty:</label>
-            <input type="text" name="txt" value="1" size="4"><br><br>
-            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-          </div>
-        </div></center>
-        <h4>DVR Hard Disk</h4><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD 1TB Purpel DVR Hard Disk.JPG" width="190" height="150">
-              <h6>WD 1TB Purpel DVR Hard Disk</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD 2TB Purpel DVR Hard Disk.JPG" width="190" height="150">
-              <h6>WD 2TB Purpel DVR Hard Disk</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 2TB Skywak.jpg" width="190" height="150">
-              <h6>Seagate 2TB Skywak</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB Skywak Hard disk.jpg" width="190" height="150">
-              <h6>Seagate 1TB Skywak Hard disk</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-        </div></center>
-        <h4> NAS / Hard Disk Doking</h4><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/All in one HDD USB2.0 2 Bay 2.53.5.JPG" width="190" height="150">
-              <h6>All in one HDD (USB2.0) 2 Bay 2.5"/3.5"</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD My Cloud NAS 12 TB  WDBMUT0120JWT-SESN.JPG" width="190" height="150">
-              <h6>WD My Cloud NAS 12 TB  WDBMUT0120JWT-SESN</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate Business Storage 2 Bay NAS.png" width="190" height="150">
-              <h6>Seagate Business Storage 2 Bay NAS</h6>
-              <p class="available instock">Availability: <span>Yes</span></p>
-              <label>Qty:</label>
-              <input type="text" name="txt" value="1" size="4"><br><br>
-              <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-        </div></center>
-        <h4>Notebook Hard Drives (2.5")</h4><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Blue Slim 1TB HDD.JPG" width="190" height="150">
-                <h6>WD Blue Slim 1TB HDD</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba 1TB.JPG" width="190" height="150">
-                <h6>Toshiba 1TB </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB Hard Disk (Remove).jpg" width="190" height="150">
-                <h6>Seagate 1TB Hard Disk (Remove)</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Ghost DDR3.png" width="230" height="150">
-                <h6>Memory Ghost DDR3</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Ghost DDR4.jpg" width="230" height="150">
-                <h6>Memory Ghost DDR4</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-        </div></center>
-        <h4>External Hard Disk</h4><center>
+        <section id="HardDisk">
+            <h1>
+                <center>HDD/SDD/Optical Drives</center>
+            </h1>
+            <h2><i>Hard Disk Drives (HDD)</i></h2>
+            <h4>Desktop Hard Disk (3.5")</h4>
+            <center>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB  (no Warranty).png"
+                            width="190" height="150">
+                        <h6>Seagate 1TB (no Warranty)</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba 1TB PC Hard Disk.jpg"
+                            width="230" height="150">
+                        <h6>Toshiba 1TB PC Hard Disk</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Blue 1TB  (Removed).jpg"
+                            width="190" height="150">
+                        <h6>WD Blue 1TB (Removed)</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 4TB Barracuda.jpg"
+                            width="190" height="150">
+                        <h6>Seagate 4TB Barracuda</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </center>
+            <h4>DVR Hard Disk</h4>
+            <center>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD 1TB Purpel DVR Hard Disk.JPG"
+                            width="190" height="150">
+                        <h6>WD 1TB Purpel DVR Hard Disk</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD 2TB Purpel DVR Hard Disk.JPG"
+                            width="190" height="150">
+                        <h6>WD 2TB Purpel DVR Hard Disk</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 2TB Skywak.jpg" width="190"
+                            height="150">
+                        <h6>Seagate 2TB Skywak</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB Skywak Hard disk.jpg"
+                            width="190" height="150">
+                        <h6>Seagate 1TB Skywak Hard disk</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </center>
+            <h4> NAS / Hard Disk Doking</h4>
+            <center>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img
+                            src="images/All in one HDD USB2.0 2 Bay 2.53.5.JPG" width="190" height="150">
+                        <h6>All in one HDD (USB2.0) 2 Bay 2.5"/3.5"</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img
+                            src="images/WD My Cloud NAS 12 TB  WDBMUT0120JWT-SESN.JPG" width="190" height="150">
+                        <h6>WD My Cloud NAS 12 TB WDBMUT0120JWT-SESN</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img
+                            src="images/Seagate Business Storage 2 Bay NAS.png" width="190" height="150">
+                        <h6>Seagate Business Storage 2 Bay NAS</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </center>
+            <h4>Notebook Hard Drives (2.5")</h4>
+            <center>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Blue Slim 1TB HDD.JPG" width="190"
+                            height="150">
+                        <h6>WD Blue Slim 1TB HDD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba 1TB.JPG" width="190"
+                            height="150">
+                        <h6>Toshiba 1TB </h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB Hard Disk (Remove).jpg"
+                            width="190" height="150">
+                        <h6>Seagate 1TB Hard Disk (Remove)</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Ghost DDR3.png" width="230"
+                            height="150">
+                        <h6>Memory Ghost DDR3</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Ghost DDR4.jpg" width="230"
+                            height="150">
+                        <h6>Memory Ghost DDR4</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </center>
+            <h4>External Hard Disk</h4>
+            <center>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB External HDD.png"
+                            width="190" height="150">
+                        <h6>Seagate 1TB External HDD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba 1TB External HDD.jpg"
+                            width="190" height="150">
+                        <h6>Toshiba 1TB External HDD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Transcend 1TB External HDD.jpg"
+                            width="190" height="150">
+                        <h6>Transcend 1TB External HDD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Transcend 2TB External HDD.jpg"
+                            width="190" height="150">
+                        <h6>Transcend 2TB External HDD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba Canvio 2 TB.jpg" width="190"
+                            height="150">
+                        <h6>Toshiba Canvio 2 TB</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Sandish 1TB Portable SSD.jpg"
+                            width="190" height="150">
+                        <h6>Sandish 1TB Portable SSD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD 2TB HDD.jpg" width="190"
+                            height="150">
+                        <h6>WD 2TB HDD</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </center>
+        </section>
+        <section id="ssd">
+
+                    <h2><i>Solid Slate Drives (SDD)</i></h2>
+                    <h4>NVME SSD</h4>
+                    <center>
+                        <div class="row" style="overflow-y:scroll; height:400px;">
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 500GB NVME M2.JPG" width="190"
+                                    height="150">
+                                <h6>Kingston 500GB NVME M2</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingmax 256 NVMe M.2.JPG" width="230"
+                                    height="150">
+                                <h6>Kingmax 256 NVMe M.2</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingmax 512GB Nvme.jpg" width="190" height="150">
+                                <h6>Kingmax 512GB Nvme </h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingmax 128GB NVME M2.JPG" width="230"
+                                    height="150">
+                                <h6>Kingmax 128GB NVME M2</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Oscoo 128 GB NVMe M.2.jpg" width="230"
+                                    height="150">
+                                <h6>Oscoo 128 GB NVMe M.2</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Oscoo 512 GB M2 SSD.jpg" width="230"
+                                    height="150">
+                                <h6>Oscoo 512 GB M2 SSD</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Small 512GB Nvme (Removed).jpg" width="230"
+                                    height="150">
+                                <h6>WD Small 512GB Nvme (Removed)</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Samsung 512GB Nvme.jpg" width="230" height="150">
+                                <h6>Samsung 512GB Nvme</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Samsung 970 EVO Plus 1TB SSD M2 NVMe.jpg"
+                                    width="230" height="150">
+                                <h6>Samsung 970 EVO Plus 1TB SSD M2 NVMe</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 250GB Nvme M.2.jpg" width="190"
+                                    height="150">
+                                <h6>Kingston 250GB Nvme M.2</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 1TB NVMe M.2 SSD.jpg" width="190"
+                                    height="150">
+                                <h6>Kingston 1TB NVMe M.2 SSD</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/512 NVME M RAM Small.jpg" width="190"
+                                    height="150">
+                                <h6>512 NVME M RAM Small</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata nvme.jpg" width="190" height="150">
+                                <h6>Adata nvme </h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata nvme L710.png" width="230" height="150">
+                                <h6>Adata nvme L710</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Gost 256 nvme.png" width="190"
+                                    height="150">
+                                <h6>Memory Gost 256 nvme</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                        </div>
+                    </center>
+                    <h4>SATA SSD</h4>
+                    <center>
+                        <div class="row">
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingstone 30GB  SSD SATA.JPG" width="190"
+                                    height="150">
+                                <h6>Kingstone 30GB SSD SATA</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 480GB SSD SATA.JPG" width="190"
+                                    height="150">
+                                <h6>Kingston 480GB SSD SATA</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 240GB SSD SATA  2.5 SA00S37 3Y W.PNG"
+                                    width="190" height="150">
+                                <h6>Kingston 240GB SSD SATA 2.5" /SA00S37 /(3Y W)</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 120GB SSD SATA.JPG" width="190"
+                                    height="150">
+                                <h6>Kingston 120GB SSD SATA </h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Ghost 256GB Sata SSD.jpg" width="190"
+                                    height="150">
+                                <h6>Memory Ghost 256GB Sata SSD</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                        </div>
+                    </center>
+
+        </section>
+        <section id="Pendrives">
+                    <h4>Pendrives</h4>
+                    <center>
+                        <div class="row">
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 32GB DT100.jpg" width="190"
+                                    height="150">
+                                <h6>Kingston 32GB DT100</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata 32 GB Pen Drive.png" width="190"
+                                    height="150">
+                                <h6>Adata 32 GB Pen Drive</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 32 GB  G4 Pen Drive.jpg" width="190"
+                                    height="150">
+                                <h6>Kingston 32 GB G4 Pen Drive</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 64GB   USB 2.03.03.1.jpg" width="190"
+                                    height="150">
+                                <h6>Kingston 64GB (USB 2.0/3.0/3.1)</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 64GB G4.jpg" width="190" height="150">
+                                <h6>Kingston 64GB G4</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata 64GB Pen drive.jpg" width="190"
+                                    height="150">
+                                <h6>Adata 64GB Pen drive</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 128GB Pen Drive.png" width="190"
+                                    height="150">
+                                <h6>Kingston 128GB Pen Drive</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                                    CART</button>
+                            </div>
+                        </div>
+                    </center>
+        </section>
+
+
+        <h4>Micro SD Cards</h4>
+        <center>
             <div class="row">
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Seagate 1TB External HDD.png" width="190" height="150">
-                    <h6>Seagate 1TB External HDD</h6>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 32GB Micro SD Card.jpg"
+                        width="190" height="150">
+                    <h6>Kingston 32GB Micro SD Card </h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba 1TB External HDD.jpg" width="190" height="150">
-                    <h6>Toshiba 1TB External HDD</h6>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 64GB Micro SD Card.jpg"
+                        width="190" height="150">
+                    <h6>Kingston 64GB Micro SD Card </h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Transcend 1TB External HDD.jpg" width="190" height="150">
-                    <h6>Transcend 1TB External HDD</h6>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 128GB Micro SD Card.jpg"
+                        width="190" height="150">
+                    <h6>Kingston 128GB Micro SD Card</h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Transcend 2TB External HDD.jpg" width="190" height="150">
-                    <h6>Transcend 2TB External HDD</h6>
+            </div>
+        </center>
+        <h2><i>Optical Drives/Optical disks & Accessaries</i></h2>
+        <center>
+            <div class="row">
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Asus Desktop SATA DVD RW.png" width="190"
+                        height="150">
+                    <h6>Asus Desktop SATA DVD RW </h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Toshiba Canvio 2 TB.jpg" width="190" height="150">
-                    <h6>Toshiba Canvio 2 TB</h6>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Encloser.jpg" width="190"
+                        height="150">
+                    <h6>WD Encloser </h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Sandish 1TB Portable SSD.jpg" width="190" height="150">
-                    <h6>Sandish 1TB Portable SSD</h6>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/HP Notebook DVD Writer.png" width="190"
+                        height="150">
+                    <h6>HP Notebook DVD Writer</h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD 2TB HDD.jpg" width="190" height="150">
-                    <h6>WD 2TB HDD</h6>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/External DVD Writer HP.jpg" width="190"
+                        height="150">
+                    <h6>External DVD Writer HP </h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
                 </div>
-            </div></center>
-        <h2><i>Solid Slate Drives (SDD)</i></h2>
-        <h4>NVME SSD</h4><center>
-        <div class="row" style="overflow-y:scroll; height:400px;">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 500GB NVME M2.JPG" width="190" height="150">
-                <h6>Kingston 500GB NVME M2</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
             </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingmax 256 NVMe M.2.JPG" width="230" height="150">
-                <h6>Kingmax 256 NVMe M.2</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingmax 512GB Nvme.jpg" width="190" height="150">
-                <h6>Kingmax 512GB Nvme </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingmax 128GB NVME M2.JPG" width="230" height="150">
-                <h6>Kingmax 128GB NVME M2</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>     
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Oscoo 128 GB NVMe M.2.jpg" width="230" height="150">
-                <h6>Oscoo 128 GB NVMe M.2</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Oscoo 512 GB M2 SSD.jpg" width="230" height="150">
-                <h6>Oscoo 512 GB M2 SSD</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Small 512GB Nvme (Removed).jpg" width="230" height="150">
-                <h6>WD Small 512GB Nvme (Removed)</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>  
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Samsung 512GB Nvme.jpg" width="230" height="150">
-                <h6>Samsung 512GB Nvme</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Samsung 970 EVO Plus 1TB SSD M2 NVMe.jpg" width="230" height="150">
-                <h6>Samsung 970 EVO Plus 1TB SSD M2 NVMe</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 250GB Nvme M.2.jpg" width="190" height="150">
-                <h6>Kingston 250GB Nvme M.2</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 1TB NVMe M.2 SSD.jpg" width="190" height="150">
-                <h6>Kingston 1TB NVMe M.2 SSD</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/512 NVME M RAM Small.jpg" width="190" height="150">
-                <h6>512 NVME M RAM Small</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata nvme.jpg" width="190" height="150">
-                <h6>Adata nvme </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata nvme L710.png" width="230" height="150">
-                <h6>Adata nvme L710</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Gost 256 nvme.png" width="190" height="150">
-                <h6>Memory Gost 256 nvme</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>  
-        </div></center>
-        <h4>SATA SSD</h4><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingstone 30GB  SSD SATA.JPG" width="190" height="150">
-                <h6>Kingstone 30GB  SSD SATA</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 480GB SSD SATA.JPG" width="190" height="150">
-                <h6>Kingston 480GB SSD SATA</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 240GB SSD SATA  2.5 SA00S37 3Y W.PNG" width="190" height="150">
-                <h6>Kingston 240GB SSD SATA  2.5" /SA00S37 /(3Y W)</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 120GB SSD SATA.JPG" width="190" height="150">
-                <h6>Kingston 120GB SSD SATA </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Memory Ghost 256GB Sata SSD.jpg" width="190" height="150">
-                <h6>Memory Ghost 256GB Sata SSD</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-        </div></center>
-        <h4>Pendrives</h4><center>
-        <div class="row">  
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 32GB DT100.jpg" width="190" height="150">
-                <h6>Kingston 32GB DT100</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata 32 GB Pen Drive.png" width="190" height="150">
-                <h6>Adata 32 GB Pen Drive</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 32 GB  G4 Pen Drive.jpg" width="190" height="150">
-                <h6>Kingston 32 GB  G4 Pen Drive</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 64GB   USB 2.03.03.1.jpg" width="190" height="150">
-                <h6>Kingston 64GB   (USB 2.0/3.0/3.1)</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 64GB G4.jpg" width="190" height="150">
-                <h6>Kingston 64GB G4</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Adata 64GB Pen drive.jpg" width="190" height="150">
-                <h6>Adata 64GB Pen drive</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 128GB Pen Drive.png" width="190" height="150">
-                <h6>Kingston 128GB Pen Drive</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div> 
-        </div></center>
-        <h4>Micro SD Cards</h4><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 32GB Micro SD Card.jpg" width="190" height="150">
-                <h6>Kingston 32GB Micro SD Card </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 64GB Micro SD Card.jpg" width="190" height="150">
-                <h6>Kingston 64GB Micro SD Card </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Kingston 128GB Micro SD Card.jpg" width="190" height="150">
-                <h6>Kingston 128GB Micro SD Card</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-        </div></center>
-        <h2><i>Optical Drives/Optical disks & Accessaries</i></h2><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Asus Desktop SATA DVD RW.png" width="190" height="150">
-                <h6>Asus Desktop SATA DVD RW </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/WD Encloser.jpg" width="190" height="150">
-                <h6>WD Encloser </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/HP Notebook DVD Writer.png" width="190" height="150">
-                <h6>HP Notebook DVD Writer</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/External DVD Writer HP.jpg" width="190" height="150">
-                <h6>External DVD Writer HP </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-        </div></center>
-        <h2><i>Optical disks & Accessaries</i></h2><center></center>
+        </center>
+        <h2><i>Optical disks & Accessaries</i></h2>
+        <center></center>
         <div class="row">
             <div class="col-sm-3 p-3 bg-white text-black"><img src="images/o1.jpg" width="190" height="150">
                 <h6>Empty DVD </h6>
                 <p class="available instock">Availability: <span>Yes</span></p>
                 <label>Qty:</label>
                 <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                    CART</button>
             </div>
             <div class="col-sm-3 p-3 bg-white text-black"><img src="images/o2.png" width="190" height="150">
                 <h6>Revohang Empty CD</h6>
                 <p class="available instock">Availability: <span>Yes</span></p>
                 <label>Qty:</label>
                 <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                    CART</button>
             </div>
             <div class="col-sm-3 p-3 bg-white text-black"><img src="images/o3.jpg" width="190" height="150">
                 <h6>CD Covers </h6>
                 <p class="available instock">Availability: <span>Yes</span></p>
                 <label>Qty:</label>
                 <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                    CART</button>
             </div>
-       <h2><i>VGA Cards</i></h2><center>
-        <div class="row">
-            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/Bios TAR Geforce 2GB III VGA Card.jpg" width="190" height="150">
-                <h6>Bios TAR Geforce 2GB III VGA Card </h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-            </div>
-        </div></center>
-        <h1><center>AUDIO ACCESSARIES</center></h1>
-        <h2><i>Speakers</i></h2><center>
-            <div class="row">
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s1.jpg" width="190" height="150">
-                    <h6>Halo Kuma Pandora Speakers </h6>
-                    <p class="available instock">Availability: <span>Yes</span></p>
-                    <label>Qty:</label>
-                    <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s2.jpg" width="190" height="150">
-                    <h6>Sonicgear P5000 (MOBY)  </h6>
-                    <p class="available instock">Availability: <span>Yes</span></p>
-                    <label>Qty:</label>
-                    <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s3.png" width="190" height="150">
-                    <h6>Sonicgear sonycube desktop Speaker </h6>
-                    <p class="available instock">Availability: <span>No</span></p>
-                    <label>Qty:</label>
-                    <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s4.jpg" width="190" height="150">
-                    <h6>Titan 2 Speaker</h6>
-                    <p class="available instock">Availability: <span>Yes</span></p>
-                    <label>Qty:</label>
-                    <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                </div>
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s5.jpeg" width="190" height="150">
-                    <h6>FEIIPU Speaker</h6>
-                    <p class="available instock">Availability: <span>Yes</span></p>
-                    <label>Qty:</label>
-                    <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                </div></center>
-                <h2><i>HeadSet</i></h2>
-                    <div class="row">
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h1.jpg" width="190" height="150">
-                            <h6>Logitech H110 headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h2.jpeg" width="190" height="150">
-                            <h6>Logitech H151 headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h3.png" width="190" height="150">
-                            <h6>Logitech H111 headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h4.jpg" width="190" height="150">
-                            <h6>Logitech H150 headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h5.jpg" width="190" height="150">
-                            <h6>Logitech 340  headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h6.jpg" width="190" height="150">
-                            <h6>A4 Tech HU 30 USB headset</h6>
-                            <p class="available instock">Availability: <span>No</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h7.jpg" width="190" height="150">
-                            <h6>A4 Tech MI 10 Micro Phone</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h8.png" width="190" height="150">
-                            <h6>A4 Tech I Chat headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h9.png" width="190" height="150">
-                            <h6>A4 Tech HS-7P headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h10.jpg" width="190" height="150">
-                            <h6>Soundking headphone</h6>
-                            <p class="available instock">Availability: <span>No</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h11.jpg" width="190" height="150">
-                            <h6>Samsung Earphone</h6>
-                            <p class="available instock">Availability: <span>No</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h12.jpg" width="190" height="150">
-                            <h6>Logitech H390</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h13.jpg" width="190" height="150">
-                            <h6>A4Tech Hn 7P headset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h14.jpeg" width="190" height="150">
-                            <h6>HearNU / Hearing Device</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <h2><i>MICS</i></h2>
-                    <div class="row">
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m1.jpg" width="190" height="150">
-                            <h6>Universal Wireless Mic</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m2.jpg" width="190" height="150">
-                            <h6>J.T.S Receiver</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m3.jpeg" width="190" height="150">
-                            <h6>JT3 CM 501 Microphone</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m4.png" width="190" height="150">
-                            <h6>U2TRAVO1CE XM 1800 Micset</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-        <div class="container-fluid mt-3">
-            <h1><center>MOTHERBOARDS/ CMOS BATTERIES</center></h1>
-            <div class="row">
-              <div class="col-sm-3 p-3 bg-white text-black"><img src="images/mb1.png" width="190" height="150">
-                <h6>Gigabyte H310 HN-S2H Motherboard </h6>
-                <p class="available instock">Availability: <span>No</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-              </div>
-              <div class="col-sm-3 p-3 bg-white text-black"><img src="images/mb2.png" width="230" height="150">
-                <h6>Gigabyte H110 MH Motherboard</h6>
-                <p class="available instock">Availability: <span>No</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-              </div>
-              <div class="col-sm-3 p-3 bg-white text-black"><img src="images/mb3.jpg" width="230" height="150">
-                <h6>UPS Motherboard 650VA</h6>
-                <p class="available instock">Availability: <span>Yes</span></p>
-                <label>Qty:</label>
-                <input type="text" name="txt" value="1" size="4"><br><br>
-                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-              </div>
-              <h4>CMOS Battries</h4><center></center>
-              <div class="row">
-                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b1.jpg" width="190" height="150">
-                  <h6>CMOS Battery CR2032 3V </h6>
-                  <p class="available instock">Availability: <span>Yes</span></p>
-                  <label>Qty:</label>
-                  <input type="text" name="txt" value="1" size="4"><br><br>
-                  <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                </div>
-                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b2.jpeg" width="190" height="150">
-                      <h6>LR  44 (BY M1 Mic Batt)</h6>
-                      <p class="available instock">Availability: <span>Yes</span></p>
-                      <label>Qty:</label>
-                      <input type="text" name="txt" value="1" size="4"><br><br>
-                      <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                    </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b3.jpg" width="190" height="150">
-                          <h6>AA  Battery</h6>
-                          <p class="available instock">Availability: <span>Yes</span></p>
-                          <label>Qty:</label>
-                          <input type="text" name="txt" value="1" size="4"><br><br>
-                          <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                        </div>
-                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b4.jpeg" width="190" height="150">
-                            <h6>AAA Battery</h6>
-                            <p class="available instock">Availability: <span>Yes</span></p>
-                            <label>Qty:</label>
-                            <input type="text" name="txt" value="1" size="4"><br><br>
-                            <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                          </div>
-              <div class="container-fluid mt-3">
-                <h1><center>DDR</center></h1>
-                <h4>Memory DDR IV Desktop</h4><center></center>
+            <h2><i>VGA Cards</i></h2>
+            <center>
                 <div class="row">
-                  <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr1.jpg" width="190" height="150">
-                    <h6>4GB DDR3 RAM </h6>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img
+                            src="images/Bios TAR Geforce 2GB III VGA Card.jpg" width="190" height="150">
+                        <h6>Bios TAR Geforce 2GB III VGA Card </h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </center>
+            <h1>
+                <center>AUDIO ACCESSARIES</center>
+            </h1>
+            <h2><i>Speakers</i></h2>
+            <center>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s1.jpg" width="190" height="150">
+                        <h6>Halo Kuma Pandora Speakers </h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s2.jpg" width="190" height="150">
+                        <h6>Sonicgear P5000 (MOBY) </h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s3.png" width="190" height="150">
+                        <h6>Sonicgear sonycube desktop Speaker </h6>
+                        <p class="available instock">Availability: <span>No</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s4.jpg" width="190" height="150">
+                        <h6>Titan 2 Speaker</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/s5.jpeg" width="190" height="150">
+                        <h6>FEIIPU Speaker</h6>
+                        <p class="available instock">Availability: <span>Yes</span></p>
+                        <label>Qty:</label>
+                        <input type="text" name="txt" value="1" size="4"><br><br>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+            </center>
+            <h2><i>HeadSet</i></h2>
+            <div class="row">
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h1.jpg" width="190" height="150">
+                    <h6>Logitech H110 headset</h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                  </div>
-                  <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr2.jpg" width="230" height="150">
-                    <h6>Lexar 8GB IV 3200 RAM</h6>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h2.jpeg" width="190" height="150">
+                    <h6>Logitech H151 headset</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h3.png" width="190" height="150">
+                    <h6>Logitech H111 headset</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h4.jpg" width="190" height="150">
+                    <h6>Logitech H150 headset</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h5.jpg" width="190" height="150">
+                    <h6>Logitech 340 headset</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h6.jpg" width="190" height="150">
+                    <h6>A4 Tech HU 30 USB headset</h6>
                     <p class="available instock">Availability: <span>No</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                  </div>
-                  <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr3.jpg" width="230" height="150">
-                    <h6>Hynix 4GB IV</h6>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h7.jpg" width="190" height="150">
+                    <h6>A4 Tech MI 10 Micro Phone</h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                  </div>
-                  <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr4.png" width="230" height="150">
-                    <h6>Kingston 4GB III</h6>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h8.png" width="190" height="150">
+                    <h6>A4 Tech I Chat headset</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h9.png" width="190" height="150">
+                    <h6>A4 Tech HS-7P headset</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h10.jpg" width="190" height="150">
+                    <h6>Soundking headphone</h6>
                     <p class="available instock">Availability: <span>No</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                  </div>
-                  <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr5.png" width="230" height="150">
-                    <h6>M RAM 8GB DOR IV</h6>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h11.jpg" width="190" height="150">
+                    <h6>Samsung Earphone</h6>
+                    <p class="available instock">Availability: <span>No</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h12.jpg" width="190" height="150">
+                    <h6>Logitech H390</h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                  </div>
-                  <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr6.jpg" width="230" height="150">
-                    <h6>Kingston 4GB III P/C </h6>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h13.jpg" width="190" height="150">
+                    <h6>A4Tech Hn 7P headset</h6>
                     <p class="available instock">Availability: <span>Yes</span></p>
                     <label>Qty:</label>
                     <input type="text" name="txt" value="1" size="4"><br><br>
-                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                  </div>
-                  <div class="container-fluid mt-3">
-                    <h4>Notebook Memory DDR III/IV</h4><center></center>
-                    <div class="row">
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/adata1.jpg" width="190" height="150">
-                        <h6>Adata 8GB DDR4 RAM </h6>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/h14.jpeg" width="190" height="150">
+                    <h6>HearNU / Hearing Device</h6>
+                    <p class="available instock">Availability: <span>Yes</span></p>
+                    <label>Qty:</label>
+                    <input type="text" name="txt" value="1" size="4"><br><br>
+                    <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                        CART</button>
+                </div>
+                <h2><i>MICS</i></h2>
+                <div class="row">
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m1.jpg" width="190" height="150">
+                        <h6>Universal Wireless Mic</h6>
                         <p class="available instock">Availability: <span>Yes</span></p>
                         <label>Qty:</label>
                         <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/r2.jpg" width="230" height="150">
-                        <h6>2GB DDR3 Notebook RAM (Removed)</h6>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m2.jpg" width="190" height="150">
+                        <h6>J.T.S Receiver</h6>
                         <p class="available instock">Availability: <span>Yes</span></p>
                         <label>Qty:</label>
                         <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/r3.jpg" width="230" height="150">
-                        <h6>CRUCIAL 8GB DDR4 3200MHz SODIMM CT8GSFERA32A.C8FP Laptop Memory</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr7.jpg" width="230" height="150">
-                        <h6>SK hynix 4GB 1Rx16 PC4-3200AA-SCO-11 Laptop Ram (Removed)</h6>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m3.jpeg" width="190" height="150">
+                        <h6>JT3 CM 501 Microphone</h6>
                         <p class="available instock">Availability: <span>Yes</span></p>
                         <label>Qty:</label>
                         <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr8.jpg" width="230" height="150">
-                        <h6>Samsung DDR4 4GB Ram (Removed )</h6>
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="col-sm-3 p-3 bg-white text-black"><img src="images/m4.png" width="190" height="150">
+                        <h6>U2TRAVO1CE XM 1800 Micset</h6>
                         <p class="available instock">Availability: <span>Yes</span></p>
                         <label>Qty:</label>
                         <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr9.jpg" width="230" height="150">
-                        <h6>Samsung DDR4 8GB Ram (Removed ) </h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr10.jpg" width="230" height="150">
-                        <h6>Kingston DDR4 8GB Ram (Removed)</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr11.jpg" width="230" height="150">
-                        <h6>Hynix DDR4 8GB Ram (Removed)</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr13.png" width="230" height="150">
-                        <h6>MEMORY Gbost 8GB III</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr12.jpg" width="230" height="150">
-                        <h6>Transcend 8GB IV</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr14.jpg" width="230" height="150">
-                        <h6>MEMORY Ghost 8GB IV</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-                      <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr15.jpg" width="230" height="150">
-                        <h6>Adata 16GB DDR4 RAM</h6>
-                        <p class="available instock">Availability: <span>No</span></p>
-                        <label>Qty:</label>
-                        <input type="text" name="txt" value="1" size="4"><br><br>
-                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
-                      </div>
-    </div>     
+                        <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD TO
+                            CART</button>
+                    </div>
+                    <div class="container-fluid mt-3">
+                        <h1>
+                            <center>MOTHERBOARDS/ CMOS BATTERIES</center>
+                        </h1>
+                        <div class="row">
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/mb1.png" width="190"
+                                    height="150">
+                                <h6>Gigabyte H310 HN-S2H Motherboard </h6>
+                                <p class="available instock">Availability: <span>No</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD
+                                    TO CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/mb2.png" width="230"
+                                    height="150">
+                                <h6>Gigabyte H110 MH Motherboard</h6>
+                                <p class="available instock">Availability: <span>No</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD
+                                    TO CART</button>
+                            </div>
+                            <div class="col-sm-3 p-3 bg-white text-black"><img src="images/mb3.jpg" width="230"
+                                    height="150">
+                                <h6>UPS Motherboard 650VA</h6>
+                                <p class="available instock">Availability: <span>Yes</span></p>
+                                <label>Qty:</label>
+                                <input type="text" name="txt" value="1" size="4"><br><br>
+                                <button class="button" style="float:center"><i class="fa-solid fa-cart-shopping"></i>ADD
+                                    TO CART</button>
+                            </div>
+                            <h4>CMOS Battries</h4>
+                            <center></center>
+                            <div class="row">
+                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b1.jpg" width="190"
+                                        height="150">
+                                    <h6>CMOS Battery CR2032 3V </h6>
+                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                    <label>Qty:</label>
+                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                    <button class="button" style="float:center"><i
+                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                </div>
+                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b2.jpeg" width="190"
+                                        height="150">
+                                    <h6>LR 44 (BY M1 Mic Batt)</h6>
+                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                    <label>Qty:</label>
+                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                    <button class="button" style="float:center"><i
+                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                </div>
+                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b3.jpg" width="190"
+                                        height="150">
+                                    <h6>AA Battery</h6>
+                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                    <label>Qty:</label>
+                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                    <button class="button" style="float:center"><i
+                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                </div>
+                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/b4.jpeg" width="190"
+                                        height="150">
+                                    <h6>AAA Battery</h6>
+                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                    <label>Qty:</label>
+                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                    <button class="button" style="float:center"><i
+                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                </div>
+                                <div class="container-fluid mt-3">
+                                    <h1>
+                                        <center>DDR</center>
+                                    </h1>
+                                    <h4>Memory DDR IV Desktop</h4>
+                                    <center></center>
+                                    <div class="row">
+                                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr1.jpg"
+                                                width="190" height="150">
+                                            <h6>4GB DDR3 RAM </h6>
+                                            <p class="available instock">Availability: <span>Yes</span></p>
+                                            <label>Qty:</label>
+                                            <input type="text" name="txt" value="1" size="4"><br><br>
+                                            <button class="button" style="float:center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                        </div>
+                                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr2.jpg"
+                                                width="230" height="150">
+                                            <h6>Lexar 8GB IV 3200 RAM</h6>
+                                            <p class="available instock">Availability: <span>No</span></p>
+                                            <label>Qty:</label>
+                                            <input type="text" name="txt" value="1" size="4"><br><br>
+                                            <button class="button" style="float:center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                        </div>
+                                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr3.jpg"
+                                                width="230" height="150">
+                                            <h6>Hynix 4GB IV</h6>
+                                            <p class="available instock">Availability: <span>Yes</span></p>
+                                            <label>Qty:</label>
+                                            <input type="text" name="txt" value="1" size="4"><br><br>
+                                            <button class="button" style="float:center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                        </div>
+                                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr4.png"
+                                                width="230" height="150">
+                                            <h6>Kingston 4GB III</h6>
+                                            <p class="available instock">Availability: <span>No</span></p>
+                                            <label>Qty:</label>
+                                            <input type="text" name="txt" value="1" size="4"><br><br>
+                                            <button class="button" style="float:center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                        </div>
+                                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr5.png"
+                                                width="230" height="150">
+                                            <h6>M RAM 8GB DOR IV</h6>
+                                            <p class="available instock">Availability: <span>Yes</span></p>
+                                            <label>Qty:</label>
+                                            <input type="text" name="txt" value="1" size="4"><br><br>
+                                            <button class="button" style="float:center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                        </div>
+                                        <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr6.jpg"
+                                                width="230" height="150">
+                                            <h6>Kingston 4GB III P/C </h6>
+                                            <p class="available instock">Availability: <span>Yes</span></p>
+                                            <label>Qty:</label>
+                                            <input type="text" name="txt" value="1" size="4"><br><br>
+                                            <button class="button" style="float:center"><i
+                                                    class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                        </div>
+                                        <div class="container-fluid mt-3">
+                                            <h4>Notebook Memory DDR III/IV</h4>
+                                            <center></center>
+                                            <div class="row">
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/adata1.jpg" width="190" height="150">
+                                                    <h6>Adata 8GB DDR4 RAM </h6>
+                                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/r2.jpg"
+                                                        width="230" height="150">
+                                                    <h6>2GB DDR3 Notebook RAM (Removed)</h6>
+                                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/r3.jpg"
+                                                        width="230" height="150">
+                                                    <h6>CRUCIAL 8GB DDR4 3200MHz SODIMM CT8GSFERA32A.C8FP Laptop Memory
+                                                    </h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr7.jpg"
+                                                        width="230" height="150">
+                                                    <h6>SK hynix 4GB 1Rx16 PC4-3200AA-SCO-11 Laptop Ram (Removed)</h6>
+                                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr8.jpg"
+                                                        width="230" height="150">
+                                                    <h6>Samsung DDR4 4GB Ram (Removed )</h6>
+                                                    <p class="available instock">Availability: <span>Yes</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img src="images/ddr9.jpg"
+                                                        width="230" height="150">
+                                                    <h6>Samsung DDR4 8GB Ram (Removed ) </h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/ddr10.jpg" width="230" height="150">
+                                                    <h6>Kingston DDR4 8GB Ram (Removed)</h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/ddr11.jpg" width="230" height="150">
+                                                    <h6>Hynix DDR4 8GB Ram (Removed)</h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/ddr13.png" width="230" height="150">
+                                                    <h6>MEMORY Gbost 8GB III</h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/ddr12.jpg" width="230" height="150">
+                                                    <h6>Transcend 8GB IV</h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/ddr14.jpg" width="230" height="150">
+                                                    <h6>MEMORY Ghost 8GB IV</h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                                <div class="col-sm-3 p-3 bg-white text-black"><img
+                                                        src="images/ddr15.jpg" width="230" height="150">
+                                                    <h6>Adata 16GB DDR4 RAM</h6>
+                                                    <p class="available instock">Availability: <span>No</span></p>
+                                                    <label>Qty:</label>
+                                                    <input type="text" name="txt" value="1" size="4"><br><br>
+                                                    <button class="button" style="float:center"><i
+                                                            class="fa-solid fa-cart-shopping"></i>ADD TO CART</button>
+                                                </div>
+                                            </div>
 </body>
+
 </html>
